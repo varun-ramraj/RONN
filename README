@@ -1,0 +1,18 @@
+PLEASE NOTE:
+This predictor is hosted here for historically reasons. Interested parties should use our updated predictor, MoreRONN. The web tool is available at: https://app.strubi.ox.ac.uk/MoreRONN/
+
+
+Installation:
+
+1) ./bootstrap.sh
+2) ./configure, make, sudo make install
+
+The program creates a symlink in /usr/local/bin.
+
+Usage:
+
+1) First invoke RONN
+2) Then paste a FASTA-formatted sequence
+3) End with Ctrl-D
+
+Allow the predictor to run. Per-residue output will be written to stdout.
